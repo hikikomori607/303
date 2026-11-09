@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align":center; background:#222;">
+<canvas id="gc"width="400" height="400" style=background:#000">
+</canvas>
 
+<script>
+let px=py=gs=tc=20,ax=ay=10, xv=yv=0 trail=[],tail=5;
+const canvas =document.getElementsByld("gc"), ctx=canvas.getContext("2d");
+document.addEventLister("keydown"),e=> {
+if(e.key=='ArrowLeft'&&xv!=1) {xv=-1;yv=0} if(e.key=='ArrowUp'&&yv!=1) {xv=0;yv=1;}
+if(e.key=='ArrowRight'&&xv!=-1) {xv=1;yv=0} if(e.key=='ArrowDown'&&yv!=-1) {xv=0;yv=1;}
+});
+setInterval(() => {
+</script>
+
+
+
+
+
+
+
+
+</html>
